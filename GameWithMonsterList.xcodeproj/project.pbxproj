@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C100B7441F62AF0F0067152F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C100B7431F62AF0F0067152F /* main.m */; };
+		C100B7471F62AF0F0067152F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C100B7461F62AF0F0067152F /* AppDelegate.m */; };
+		C100B74A1F62AF0F0067152F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C100B7491F62AF0F0067152F /* ViewController.m */; };
+		C100B74D1F62AF0F0067152F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C100B74B1F62AF0F0067152F /* Main.storyboard */; };
+		C100B74F1F62AF0F0067152F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C100B74E1F62AF0F0067152F /* Assets.xcassets */; };
+		C100B7521F62AF100067152F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C100B7501F62AF0F0067152F /* LaunchScreen.storyboard */; };
+		C100B75D1F62AF100067152F /* GameWithMonsterListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C100B75C1F62AF100067152F /* GameWithMonsterListTests.m */; };
+		C100B7681F62AF100067152F /* GameWithMonsterListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C100B7671F62AF100067152F /* GameWithMonsterListUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C100B7591F62AF100067152F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C100B7371F62AF0F0067152F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C100B73E1F62AF0F0067152F;
+			remoteInfo = GameWithMonsterList;
+		};
+		C100B7641F62AF100067152F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C100B7371F62AF0F0067152F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C100B73E1F62AF0F0067152F;
+			remoteInfo = GameWithMonsterList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C100B73F1F62AF0F0067152F /* GameWithMonsterList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameWithMonsterList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C100B7431F62AF0F0067152F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C100B7451F62AF0F0067152F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C100B7461F62AF0F0067152F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C100B7481F62AF0F0067152F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C100B7491F62AF0F0067152F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C100B74C1F62AF0F0067152F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C100B74E1F62AF0F0067152F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C100B7511F62AF0F0067152F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C100B7531F62AF100067152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C100B7581F62AF100067152F /* GameWithMonsterListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameWithMonsterListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C100B75C1F62AF100067152F /* GameWithMonsterListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWithMonsterListTests.m; sourceTree = "<group>"; };
+		C100B75E1F62AF100067152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C100B7631F62AF100067152F /* GameWithMonsterListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameWithMonsterListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C100B7671F62AF100067152F /* GameWithMonsterListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWithMonsterListUITests.m; sourceTree = "<group>"; };
+		C100B7691F62AF100067152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C100B73C1F62AF0F0067152F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100B7551F62AF100067152F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100B7601F62AF100067152F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C100B7361F62AF0F0067152F = {
+			isa = PBXGroup;
+			children = (
+				C100B7411F62AF0F0067152F /* GameWithMonsterList */,
+				C100B75B1F62AF100067152F /* GameWithMonsterListTests */,
+				C100B7661F62AF100067152F /* GameWithMonsterListUITests */,
+				C100B7401F62AF0F0067152F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C100B7401F62AF0F0067152F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C100B73F1F62AF0F0067152F /* GameWithMonsterList.app */,
+				C100B7581F62AF100067152F /* GameWithMonsterListTests.xctest */,
+				C100B7631F62AF100067152F /* GameWithMonsterListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C100B7411F62AF0F0067152F /* GameWithMonsterList */ = {
+			isa = PBXGroup;
+			children = (
+				C100B7451F62AF0F0067152F /* AppDelegate.h */,
+				C100B7461F62AF0F0067152F /* AppDelegate.m */,
+				C100B7481F62AF0F0067152F /* ViewController.h */,
+				C100B7491F62AF0F0067152F /* ViewController.m */,
+				C100B74B1F62AF0F0067152F /* Main.storyboard */,
+				C100B74E1F62AF0F0067152F /* Assets.xcassets */,
+				C100B7501F62AF0F0067152F /* LaunchScreen.storyboard */,
+				C100B7531F62AF100067152F /* Info.plist */,
+				C100B7421F62AF0F0067152F /* Supporting Files */,
+			);
+			path = GameWithMonsterList;
+			sourceTree = "<group>";
+		};
+		C100B7421F62AF0F0067152F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C100B7431F62AF0F0067152F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C100B75B1F62AF100067152F /* GameWithMonsterListTests */ = {
+			isa = PBXGroup;
+			children = (
+				C100B75C1F62AF100067152F /* GameWithMonsterListTests.m */,
+				C100B75E1F62AF100067152F /* Info.plist */,
+			);
+			path = GameWithMonsterListTests;
+			sourceTree = "<group>";
+		};
+		C100B7661F62AF100067152F /* GameWithMonsterListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C100B7671F62AF100067152F /* GameWithMonsterListUITests.m */,
+				C100B7691F62AF100067152F /* Info.plist */,
+			);
+			path = GameWithMonsterListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C100B73E1F62AF0F0067152F /* GameWithMonsterList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C100B76C1F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterList" */;
+			buildPhases = (
+				C100B73B1F62AF0F0067152F /* Sources */,
+				C100B73C1F62AF0F0067152F /* Frameworks */,
+				C100B73D1F62AF0F0067152F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameWithMonsterList;
+			productName = GameWithMonsterList;
+			productReference = C100B73F1F62AF0F0067152F /* GameWithMonsterList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C100B7571F62AF100067152F /* GameWithMonsterListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C100B76F1F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterListTests" */;
+			buildPhases = (
+				C100B7541F62AF100067152F /* Sources */,
+				C100B7551F62AF100067152F /* Frameworks */,
+				C100B7561F62AF100067152F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C100B75A1F62AF100067152F /* PBXTargetDependency */,
+			);
+			name = GameWithMonsterListTests;
+			productName = GameWithMonsterListTests;
+			productReference = C100B7581F62AF100067152F /* GameWithMonsterListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C100B7621F62AF100067152F /* GameWithMonsterListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C100B7721F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterListUITests" */;
+			buildPhases = (
+				C100B75F1F62AF100067152F /* Sources */,
+				C100B7601F62AF100067152F /* Frameworks */,
+				C100B7611F62AF100067152F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C100B7651F62AF100067152F /* PBXTargetDependency */,
+			);
+			name = GameWithMonsterListUITests;
+			productName = GameWithMonsterListUITests;
+			productReference = C100B7631F62AF100067152F /* GameWithMonsterListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C100B7371F62AF0F0067152F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "张真";
+				TargetAttributes = {
+					C100B73E1F62AF0F0067152F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A8RKVQBA4T;
+						ProvisioningStyle = Automatic;
+					};
+					C100B7571F62AF100067152F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A8RKVQBA4T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C100B73E1F62AF0F0067152F;
+					};
+					C100B7621F62AF100067152F = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = A8RKVQBA4T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C100B73E1F62AF0F0067152F;
+					};
+				};
+			};
+			buildConfigurationList = C100B73A1F62AF0F0067152F /* Build configuration list for PBXProject "GameWithMonsterList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C100B7361F62AF0F0067152F;
+			productRefGroup = C100B7401F62AF0F0067152F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C100B73E1F62AF0F0067152F /* GameWithMonsterList */,
+				C100B7571F62AF100067152F /* GameWithMonsterListTests */,
+				C100B7621F62AF100067152F /* GameWithMonsterListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C100B73D1F62AF0F0067152F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100B7521F62AF100067152F /* LaunchScreen.storyboard in Resources */,
+				C100B74F1F62AF0F0067152F /* Assets.xcassets in Resources */,
+				C100B74D1F62AF0F0067152F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100B7561F62AF100067152F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100B7611F62AF100067152F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C100B73B1F62AF0F0067152F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100B74A1F62AF0F0067152F /* ViewController.m in Sources */,
+				C100B7471F62AF0F0067152F /* AppDelegate.m in Sources */,
+				C100B7441F62AF0F0067152F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100B7541F62AF100067152F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100B75D1F62AF100067152F /* GameWithMonsterListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C100B75F1F62AF100067152F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C100B7681F62AF100067152F /* GameWithMonsterListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C100B75A1F62AF100067152F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C100B73E1F62AF0F0067152F /* GameWithMonsterList */;
+			targetProxy = C100B7591F62AF100067152F /* PBXContainerItemProxy */;
+		};
+		C100B7651F62AF100067152F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C100B73E1F62AF0F0067152F /* GameWithMonsterList */;
+			targetProxy = C100B7641F62AF100067152F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C100B74B1F62AF0F0067152F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C100B74C1F62AF0F0067152F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C100B7501F62AF0F0067152F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C100B7511F62AF0F0067152F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C100B76A1F62AF100067152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C100B76B1F62AF100067152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C100B76D1F62AF100067152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8RKVQBA4T;
+				INFOPLIST_FILE = GameWithMonsterList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.GameWithMonsterList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C100B76E1F62AF100067152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A8RKVQBA4T;
+				INFOPLIST_FILE = GameWithMonsterList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.GameWithMonsterList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C100B7701F62AF100067152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A8RKVQBA4T;
+				INFOPLIST_FILE = GameWithMonsterListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.GameWithMonsterListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameWithMonsterList.app/GameWithMonsterList";
+			};
+			name = Debug;
+		};
+		C100B7711F62AF100067152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A8RKVQBA4T;
+				INFOPLIST_FILE = GameWithMonsterListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.GameWithMonsterListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GameWithMonsterList.app/GameWithMonsterList";
+			};
+			name = Release;
+		};
+		C100B7731F62AF100067152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A8RKVQBA4T;
+				INFOPLIST_FILE = GameWithMonsterListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.GameWithMonsterListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GameWithMonsterList;
+			};
+			name = Debug;
+		};
+		C100B7741F62AF100067152F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = A8RKVQBA4T;
+				INFOPLIST_FILE = GameWithMonsterListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.GameWithMonsterListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GameWithMonsterList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C100B73A1F62AF0F0067152F /* Build configuration list for PBXProject "GameWithMonsterList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100B76A1F62AF100067152F /* Debug */,
+				C100B76B1F62AF100067152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C100B76C1F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100B76D1F62AF100067152F /* Debug */,
+				C100B76E1F62AF100067152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C100B76F1F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100B7701F62AF100067152F /* Debug */,
+				C100B7711F62AF100067152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C100B7721F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C100B7731F62AF100067152F /* Debug */,
+				C100B7741F62AF100067152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C100B7371F62AF0F0067152F /* Project object */;
+}
