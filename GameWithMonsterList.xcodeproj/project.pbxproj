@@ -13,8 +13,17 @@
 		C100B74D1F62AF0F0067152F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C100B74B1F62AF0F0067152F /* Main.storyboard */; };
 		C100B74F1F62AF0F0067152F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C100B74E1F62AF0F0067152F /* Assets.xcassets */; };
 		C100B7521F62AF100067152F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C100B7501F62AF0F0067152F /* LaunchScreen.storyboard */; };
-		C100B75D1F62AF100067152F /* GameWithMonsterListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C100B75C1F62AF100067152F /* GameWithMonsterListTests.m */; };
-		C100B7681F62AF100067152F /* GameWithMonsterListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C100B7671F62AF100067152F /* GameWithMonsterListUITests.m */; };
+		C100B7761F62AF600067152F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C100B7751F62AF600067152F /* Podfile */; };
+		C140BE111F69137000D6B9AA /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C140BE101F69137000D6B9AA /* libxml2.2.tbd */; };
+		C140BE131F69137A00D6B9AA /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C140BE121F69137A00D6B9AA /* libxml2.tbd */; };
+		C140BE171F69167800D6B9AA /* HeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C140BE161F69167800D6B9AA /* HeroTableViewCell.m */; };
+		C140BE191F69172800D6B9AA /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C140BE181F69172800D6B9AA /* HeroTableViewCell.xib */; };
+		C140BE271F69231D00D6B9AA /* GameDataInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = C140BE1C1F69218A00D6B9AA /* GameDataInstance.m */; };
+		C140BE281F69231D00D6B9AA /* UserData.m in Sources */ = {isa = PBXBuildFile; fileRef = C140BE261F69218A00D6B9AA /* UserData.m */; };
+		C140BE2B1F69400500D6B9AA /* HeroDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C140BE2A1F69400400D6B9AA /* HeroDetailViewController.m */; };
+		C148F58C1F669D5B00462C5F /* IdolTvHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C148F5771F6693F200462C5F /* IdolTvHttpManager.m */; };
+		C1EC31EC209DFB5000F6D4BB /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = C1EC31EB209DFB5000F6D4BB /* Assets */; };
+		DFE22BDE474FB45B07B12334 /* Pods_GameWithMonsterList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 293E96385753389BA2300AFD /* Pods_GameWithMonsterList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		293E96385753389BA2300AFD /* Pods_GameWithMonsterList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GameWithMonsterList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30AB5EE525C3E7682F278ABA /* Pods-GameWithMonsterList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameWithMonsterList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GameWithMonsterList/Pods-GameWithMonsterList.debug.xcconfig"; sourceTree = "<group>"; };
 		C100B73F1F62AF0F0067152F /* GameWithMonsterList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameWithMonsterList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C100B7431F62AF0F0067152F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C100B7451F62AF0F0067152F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,11 +57,32 @@
 		C100B7511F62AF0F0067152F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C100B7531F62AF100067152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C100B7581F62AF100067152F /* GameWithMonsterListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameWithMonsterListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C100B75C1F62AF100067152F /* GameWithMonsterListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWithMonsterListTests.m; sourceTree = "<group>"; };
-		C100B75E1F62AF100067152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C100B7631F62AF100067152F /* GameWithMonsterListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameWithMonsterListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C100B7671F62AF100067152F /* GameWithMonsterListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameWithMonsterListUITests.m; sourceTree = "<group>"; };
-		C100B7691F62AF100067152F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C100B7751F62AF600067152F /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C140BE101F69137000D6B9AA /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		C140BE121F69137A00D6B9AA /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		C140BE151F69167800D6B9AA /* HeroTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroTableViewCell.h; sourceTree = "<group>"; };
+		C140BE161F69167800D6B9AA /* HeroTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroTableViewCell.m; sourceTree = "<group>"; };
+		C140BE181F69172800D6B9AA /* HeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroTableViewCell.xib; sourceTree = "<group>"; };
+		C140BE1B1F69218A00D6B9AA /* GameDataInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameDataInstance.h; sourceTree = "<group>"; };
+		C140BE1C1F69218A00D6B9AA /* GameDataInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameDataInstance.m; sourceTree = "<group>"; };
+		C140BE251F69218A00D6B9AA /* UserData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserData.h; sourceTree = "<group>"; };
+		C140BE261F69218A00D6B9AA /* UserData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserData.m; sourceTree = "<group>"; };
+		C140BE291F69400400D6B9AA /* HeroDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroDetailViewController.h; sourceTree = "<group>"; };
+		C140BE2A1F69400400D6B9AA /* HeroDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeroDetailViewController.m; sourceTree = "<group>"; };
+		C1469FFD1F66A07100A3A0B4 /* IdolTvTypeConvertUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdolTvTypeConvertUtil.h; sourceTree = "<group>"; };
+		C1469FFE1F66A07100A3A0B4 /* IdolTvTypeConvertUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdolTvTypeConvertUtil.m; sourceTree = "<group>"; };
+		C1469FFF1F66A07100A3A0B4 /* OhBikeXmlParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OhBikeXmlParser.h; sourceTree = "<group>"; };
+		C146A0001F66A07100A3A0B4 /* OhBikeXmlParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OhBikeXmlParser.m; sourceTree = "<group>"; };
+		C146A0011F66A07100A3A0B4 /* UIImage+UIImageExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageExtras.h"; sourceTree = "<group>"; };
+		C146A0021F66A07100A3A0B4 /* UIImage+UIImageExtras.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageExtras.m"; sourceTree = "<group>"; };
+		C148F5751F6693F200462C5F /* IdolTvUploadImageDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdolTvUploadImageDelegate.h; sourceTree = "<group>"; };
+		C148F5761F6693F200462C5F /* IdolTvHttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdolTvHttpManager.h; sourceTree = "<group>"; };
+		C148F5771F6693F200462C5F /* IdolTvHttpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IdolTvHttpManager.m; sourceTree = "<group>"; };
+		C148F5891F6698B400462C5F /* IdolTvHttpCallbackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IdolTvHttpCallbackDelegate.h; sourceTree = "<group>"; };
+		C1EC31EB209DFB5000F6D4BB /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = GameWithMonsterList/Assets; sourceTree = "<group>"; };
+		C1F498142009B7090082EE52 /* HeroTableViewCellDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeroTableViewCellDelegate.h; sourceTree = "<group>"; };
+		E815630481E6B8C31D0E2D65 /* Pods-GameWithMonsterList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GameWithMonsterList.release.xcconfig"; path = "Pods/Target Support Files/Pods-GameWithMonsterList/Pods-GameWithMonsterList.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C140BE131F69137A00D6B9AA /* libxml2.tbd in Frameworks */,
+				C140BE111F69137000D6B9AA /* libxml2.2.tbd in Frameworks */,
+				DFE22BDE474FB45B07B12334 /* Pods_GameWithMonsterList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +113,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD68FE4BD6F4332F47E5A28B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30AB5EE525C3E7682F278ABA /* Pods-GameWithMonsterList.debug.xcconfig */,
+				E815630481E6B8C31D0E2D65 /* Pods-GameWithMonsterList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C100B7361F62AF0F0067152F = {
 			isa = PBXGroup;
 			children = (
+				C140BE181F69172800D6B9AA /* HeroTableViewCell.xib */,
+				C1EC31EB209DFB5000F6D4BB /* Assets */,
 				C100B7411F62AF0F0067152F /* GameWithMonsterList */,
-				C100B75B1F62AF100067152F /* GameWithMonsterListTests */,
-				C100B7661F62AF100067152F /* GameWithMonsterListUITests */,
 				C100B7401F62AF0F0067152F /* Products */,
+				C100B7751F62AF600067152F /* Podfile */,
+				AD68FE4BD6F4332F47E5A28B /* Pods */,
+				E8532376E8402DB14C21D94D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +152,13 @@
 				C100B7461F62AF0F0067152F /* AppDelegate.m */,
 				C100B7481F62AF0F0067152F /* ViewController.h */,
 				C100B7491F62AF0F0067152F /* ViewController.m */,
+				C140BE2A1F69400400D6B9AA /* HeroDetailViewController.m */,
+				C140BE291F69400400D6B9AA /* HeroDetailViewController.h */,
+				C140BE1A1F69218A00D6B9AA /* Data */,
+				C148F5881F6698B400462C5F /* Delegate */,
+				C140BE141F69164200D6B9AA /* GUI */,
+				C148F5731F6693F200462C5F /* Http */,
+				C1469FF81F66A07100A3A0B4 /* Utils */,
 				C100B74B1F62AF0F0067152F /* Main.storyboard */,
 				C100B74E1F62AF0F0067152F /* Assets.xcassets */,
 				C100B7501F62AF0F0067152F /* LaunchScreen.storyboard */,
@@ -122,22 +176,91 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C100B75B1F62AF100067152F /* GameWithMonsterListTests */ = {
+		C140BE141F69164200D6B9AA /* GUI */ = {
 			isa = PBXGroup;
 			children = (
-				C100B75C1F62AF100067152F /* GameWithMonsterListTests.m */,
-				C100B75E1F62AF100067152F /* Info.plist */,
+				C1F498132009B6CD0082EE52 /* Delegate */,
+				C140BE151F69167800D6B9AA /* HeroTableViewCell.h */,
+				C140BE161F69167800D6B9AA /* HeroTableViewCell.m */,
 			);
-			path = GameWithMonsterListTests;
+			path = GUI;
 			sourceTree = "<group>";
 		};
-		C100B7661F62AF100067152F /* GameWithMonsterListUITests */ = {
+		C140BE1A1F69218A00D6B9AA /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				C100B7671F62AF100067152F /* GameWithMonsterListUITests.m */,
-				C100B7691F62AF100067152F /* Info.plist */,
+				C140BE1B1F69218A00D6B9AA /* GameDataInstance.h */,
+				C140BE1C1F69218A00D6B9AA /* GameDataInstance.m */,
+				C140BE221F69218A00D6B9AA /* SubData */,
 			);
-			path = GameWithMonsterListUITests;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C140BE221F69218A00D6B9AA /* SubData */ = {
+			isa = PBXGroup;
+			children = (
+				C140BE251F69218A00D6B9AA /* UserData.h */,
+				C140BE261F69218A00D6B9AA /* UserData.m */,
+			);
+			path = SubData;
+			sourceTree = "<group>";
+		};
+		C1469FF81F66A07100A3A0B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C1469FFD1F66A07100A3A0B4 /* IdolTvTypeConvertUtil.h */,
+				C1469FFE1F66A07100A3A0B4 /* IdolTvTypeConvertUtil.m */,
+				C1469FFF1F66A07100A3A0B4 /* OhBikeXmlParser.h */,
+				C146A0001F66A07100A3A0B4 /* OhBikeXmlParser.m */,
+				C146A0011F66A07100A3A0B4 /* UIImage+UIImageExtras.h */,
+				C146A0021F66A07100A3A0B4 /* UIImage+UIImageExtras.m */,
+			);
+			name = Utils;
+			path = GameWithMonsterList/Utils;
+			sourceTree = SOURCE_ROOT;
+		};
+		C148F5731F6693F200462C5F /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				C148F5741F6693F200462C5F /* Delegate */,
+				C148F5761F6693F200462C5F /* IdolTvHttpManager.h */,
+				C148F5771F6693F200462C5F /* IdolTvHttpManager.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		C148F5741F6693F200462C5F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C148F5751F6693F200462C5F /* IdolTvUploadImageDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C148F5881F6698B400462C5F /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C148F5891F6698B400462C5F /* IdolTvHttpCallbackDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		C1F498132009B6CD0082EE52 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				C1F498142009B7090082EE52 /* HeroTableViewCellDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		E8532376E8402DB14C21D94D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C140BE121F69137A00D6B9AA /* libxml2.tbd */,
+				C140BE101F69137000D6B9AA /* libxml2.2.tbd */,
+				293E96385753389BA2300AFD /* Pods_GameWithMonsterList.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,9 +270,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C100B76C1F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterList" */;
 			buildPhases = (
+				DFEEDFFDF90EDED74900464E /* [CP] Check Pods Manifest.lock */,
 				C100B73B1F62AF0F0067152F /* Sources */,
 				C100B73C1F62AF0F0067152F /* Frameworks */,
 				C100B73D1F62AF0F0067152F /* Resources */,
+				83464C9FC9AEC77832BE183C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,13 +327,13 @@
 		C100B7371F62AF0F0067152F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "张真";
 				TargetAttributes = {
 					C100B73E1F62AF0F0067152F = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = A8RKVQBA4T;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 48L4DTB496;
+						ProvisioningStyle = Manual;
 					};
 					C100B7571F62AF100067152F = {
 						CreatedOnToolsVersion = 8.3.3;
@@ -250,7 +375,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C100B7521F62AF100067152F /* LaunchScreen.storyboard in Resources */,
+				C1EC31EC209DFB5000F6D4BB /* Assets in Resources */,
 				C100B74F1F62AF0F0067152F /* Assets.xcassets in Resources */,
+				C140BE191F69172800D6B9AA /* HeroTableViewCell.xib in Resources */,
+				C100B7761F62AF600067152F /* Podfile in Resources */,
 				C100B74D1F62AF0F0067152F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +399,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		83464C9FC9AEC77832BE183C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GameWithMonsterList/Pods-GameWithMonsterList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CMPopTipView/CMPopTipView.framework",
+				"${BUILT_PRODUCTS_DIR}/GDataXML-HTML/GDataXML_HTML.framework",
+				"${BUILT_PRODUCTS_DIR}/M13ProgressSuite/M13ProgressSuite.framework",
+				"${BUILT_PRODUCTS_DIR}/Ono/Ono.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CMPopTipView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDataXML_HTML.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13ProgressSuite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Ono.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GameWithMonsterList/Pods-GameWithMonsterList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFEEDFFDF90EDED74900464E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GameWithMonsterList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C100B73B1F62AF0F0067152F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,7 +455,12 @@
 			files = (
 				C100B74A1F62AF0F0067152F /* ViewController.m in Sources */,
 				C100B7471F62AF0F0067152F /* AppDelegate.m in Sources */,
+				C148F58C1F669D5B00462C5F /* IdolTvHttpManager.m in Sources */,
+				C140BE171F69167800D6B9AA /* HeroTableViewCell.m in Sources */,
 				C100B7441F62AF0F0067152F /* main.m in Sources */,
+				C140BE2B1F69400500D6B9AA /* HeroDetailViewController.m in Sources */,
+				C140BE271F69231D00D6B9AA /* GameDataInstance.m in Sources */,
+				C140BE281F69231D00D6B9AA /* UserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +468,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C100B75D1F62AF100067152F /* GameWithMonsterListTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +475,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C100B7681F62AF100067152F /* GameWithMonsterListUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +523,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -351,7 +533,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -392,7 +578,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -400,7 +588,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -427,25 +619,67 @@
 		};
 		C100B76D1F62AF100067152F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30AB5EE525C3E7682F278ABA /* Pods-GameWithMonsterList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A8RKVQBA4T;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 48L4DTB496;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"/MyProject/GameWithMonsterList/Pods/**",
+				);
 				INFOPLIST_FILE = GameWithMonsterList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.GameWithMonsterList;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"GDataXML_HTML\"",
+					"-framework",
+					"\"Ono\"",
+					"-framework",
+					"\"SSZipArchive\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.biketest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c26ef10b-6f58-4b5d-9c04-2ea3e7fbd917";
+				PROVISIONING_PROFILE_SPECIFIER = com_lionelzhang_biketest2.debug;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C100B76E1F62AF100067152F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E815630481E6B8C31D0E2D65 /* Pods-GameWithMonsterList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A8RKVQBA4T;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 48L4DTB496;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					"/MyProject/GameWithMonsterList/Pods/**",
+				);
 				INFOPLIST_FILE = GameWithMonsterList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.GameWithMonsterList;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"GDataXML_HTML\"",
+					"-framework",
+					"\"Ono\"",
+					"-framework",
+					"\"SSZipArchive\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lionelzhang.biketest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c26ef10b-6f58-4b5d-9c04-2ea3e7fbd917";
+				PROVISIONING_PROFILE_SPECIFIER = com_lionelzhang_biketest2.debug;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +752,7 @@
 				C100B76E1F62AF100067152F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C100B76F1F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterListTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +761,7 @@
 				C100B7711F62AF100067152F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C100B7721F62AF100067152F /* Build configuration list for PBXNativeTarget "GameWithMonsterListUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +770,7 @@
 				C100B7741F62AF100067152F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
